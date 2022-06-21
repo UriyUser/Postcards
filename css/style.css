@@ -1,0 +1,32 @@
+body {
+    background: brown;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 73%;
+}
+
+p {
+    animation: name 5s infinite alternate both;
+}
+
+@keyframes name {
+    from {
+        margin-left: 0%;
+        width: 20%;
+    }
+
+    to {
+        margin-left: 100%;
+        width: 210%;
+    }
+}
